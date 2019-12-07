@@ -20,3 +20,5 @@ Route::get('/firstpage', function(){
 Route::get('/dashboard', 'DashboardController@index');
 Route::get('/halamantambah', 'DashboardController@index');
 Route::resource('/tes', 'TesController');
+Route::get('/kategori', 'KategoriController@index');
+Route::get('/produk', 'ProdukController@index');
